@@ -9,23 +9,32 @@
 </head>
 
 <body>
-    <ul>
-        <li><a href="http://">Link 1</a></li>
-        <li><a href="http://">Link 2</a></li>
-        <li><a href="http://">Link 3</a></li>
-        <br>
-        <form action="/action_page.php">
-            <label for="cars">Choose a car:</label>
-            <select name="cars" id="cars">
-                <option value="volvo">Volvo</option>
-                <option value="saab">Saab</option>
-                <option value="opel">Opel</option>
-                <option value="audi">Audi</option>
-            </select>
-            <br><br>
-            <input type="submit" value="Submit">
-        </form>
-    </ul>
+    <div role="navigation" aria-label="College">
+        <button>
+            <li><a href="http://">Student</a></li>
+        </button>
+        <button>
+            <li><a href="http://">Teacher</a></li>
+        </button>
+        <button>
+            <li><a href="http://">Other</a></li>
+        </button>
+        <ul>
+            <br>
+            <form>
+                <label for="cars">Choose a car:</label>
+                <select name="cars" id="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </ul>
+
+    </div>
 </body>
 
 </html>
