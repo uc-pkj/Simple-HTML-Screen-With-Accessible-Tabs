@@ -9,20 +9,22 @@
 </head>
 
 <body>
-    <div role="navigation" aria-label="College">
-        <button>
-            <li><a href="http://">Student</a></li>
-        </button>
-        <button>
-            <li><a href="http://">Teacher</a></li>
-        </button>
-        <button>
-            <li><a href="http://">Other</a></li>
-        </button>
-        <ul>
+    <ul>
+
+        <div role="navigation" aria-label="College">
+            <button>
+                <li><a href="./page_for_Student.html" accesskey="s">Student</a></li>
+            </button>
+            <button>
+                <li><a href="./page_for_Teacher.html" accesskey="t">Teacher</a></li>
+            </button>
+            <button>
+                <li><a href="./page_for_other.html" accesskey="o">Other</a></li>
+            </button>
+
             <br>
             <form>
-                <label for="cars">Choose a car:</label>
+                <label for="cars" accesskey="c">Choose a car:</label>
                 <select name="cars" id="cars">
                     <option value="volvo">Volvo</option>
                     <option value="saab">Saab</option>
@@ -32,8 +34,8 @@
                 <br><br>
                 <input type="submit" value="Submit">
             </form>
-        </ul>
 
+    </ul>
     </div>
 </body>
 
