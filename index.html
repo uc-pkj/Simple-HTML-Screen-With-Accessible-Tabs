@@ -6,37 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accessible Features</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <ul>
+    <h1>Features = "Tab_Working", "CTRL + OPTION + Accesskey" </h1>
 
-        <div role="navigation" aria-label="College">
-            <button>
-                <li><a href="./page_for_Student.html" accesskey="s">Student</a></li>
-            </button>
-            <button>
-                <li><a href="./page_for_Teacher.html" accesskey="t">Teacher</a></li>
-            </button>
-            <button>
-                <li><a href="./page_for_other.html" accesskey="o">Other</a></li>
-            </button>
-
-            <br>
-            <form>
-                <label for="cars" accesskey="c">Choose a car:</label>
-                <select name="cars" id="cars">
-                    <option value="volvo">Volvo</option>
-                    <option value="saab">Saab</option>
-                    <option value="opel">Opel</option>
-                    <option value="audi">Audi</option>
-                </select>
-                <br><br>
-                <input type="submit" value="Submit">
-            </form>
-
-    </ul>
+    <div role="navigation" aria-label="College">
+        <button>
+            <a href="./page_for_Student.html" accesskey="s" class="button">Student</a>
+        </button>
+        <button>
+            <a href="./page_for_Teacher.html" accesskey="t" class="button">Teacher</a>
+        </button>
+        <button>
+            <a href="./page_for_other.html" accesskey="o" class="button">Other</a>
+        </button>
     </div>
+
+    <br>
+    <form>
+        <label for="cars" accesskey="c" id="choose">Choose a car:</label>
+        <select name="cars" id="cars" class="button">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit" class="button">
+    </form>
+
 </body>
 
 </html>
